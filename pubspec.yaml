@@ -76,6 +76,10 @@ flutter_launcher_icons:
 
 # The following section is specific to Flutter packages.
 flutter:
+  # This project uses a custom CocoaPods configuration for Google Mobile Ads.
+  # Keep every build environment, including Codemagic, on the same backend.
+  config:
+    enable-swift-package-manager: false
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
